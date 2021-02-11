@@ -4,10 +4,10 @@ kind: ClusterConfig
 
 metadata:
   name: multi-arch-demo-cluster
-  region: <REGION>
+  region: us-east-1
   version: "1.18"
 
-availabilityZones: ["<REGION>a", "<REGION>b", "<REGION>c"]
+availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c"]
 
 managedNodeGroups:
   - name: nodegroup-amd
